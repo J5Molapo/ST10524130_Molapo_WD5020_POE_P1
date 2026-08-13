@@ -1,0 +1,31 @@
+TrailBlazer Gaming&Esports Arena
+Website Redesign & Development for Trailblazer Esports Arena
+TO:Lecturer Mr LFROM:Napo MolapoCLIENT / TARGET BUSINESS:Trailblazer Esports Arena (Owned & Managed by Jeffery Yelnats)DATE:August 2026SUBJECT:Approval Request to Redesign Website1. Project Objective & Permission Request
+I am submitting this proposal to request formal approval to approach Trailblazer Esports Arena, owned by Jeffery Yelnats, as part of my Work-Integrated Learning (WIL) practical module. Trailblazer offers competitive rates for arena access, esports training, day passes, monthly memberships with merch, and tournament endorsements for Platinum members. The goal of this project is to build a responsive, modern website that showcases their full offerings and integrates essential features.
+2. Goals and Objectives
+* The website design aims to increase the flow of work and increase the user experience so that it is easier to navigate the website.
+* E-commerce becomes easier to do because of additional features to be able to purchase memberships online.
+* Valuble information is conveyed better to an increase visual hierarchy. Building the brand identity so that goodwill among customers is built to ensure return and attraction of customers.
+3. Current Website Analysis (Trailblazer Esports Arena)
+* Outdated Design & Visual Hierarchy: The current layout fails to reflect Trailblazer's premium esports environment and modern brand identity.
+* Lack of Mobile Responsiveness: The site renders poorly on mobile/tablet devices, creating friction for frequent gamers seeking day passes or event info.
+* Fragmented Navigation: Membership tiers (Day Pass, Silver, Gold, Platinum), esports training bootcamps, and tournament endorsement details are difficult to locate.
+* Performance & Load Times: Unoptimized assets lead to slow load times, impacting user retention and new release alerts.
+4. Proposed Essentials (UX, Design & Business Features)
+* Responsive Layout & Modern Aesthetics: A sleek responsive layout (Mobile-First approach) tailored for gaming enthusiasts across mobile, tablet, and desktop.
+* Structured Membership Display: Clear presentation of membership tiers (Day Pass @ $15/day, Silver @ $49/mo, Gold @ $99/mo, Platinum @ $199/mo) and associated merch/perks.
+* Esports Training Section: Dedicated portals detailing 1-on-1 coaching ($35/hr), Team Bootcamps ($250/wk), and seminar schedules.
+* Platinum Endorsement Pathway: Highlighting tournament representation benefits, gear sponsorships, and esports scout connections for top-tier members.
+* Accessibility & Speed: Fast loading speeds, WCAG compliant contrast, and crisp navigation.
+* The color pcheme will be a bright blue with a Solid black with touches of of white highlighting the contrast of the two colors making it pop.
+* The fonts will be Future time Splitters Font to create a futuristic feel to the website.
+5. Technical Requirements
+* Frontend Stack: HTML5, CSS3/Tailwind CSS, and JavaScript (React) for fast, dynamic rendering.
+* Inquiry & Registration Forms: Functional backend processing for membership sign-ups, coaching session bookings, and client contact with input validation.
+* New Release & Event Alerts: Integrated notification banner and dynamic update system for upcoming tournament and game release alerts.
+* SEO & Optimization: On-page SEO, optimized media compression, and fast performance benchmarks.
+6. Project Timeline & Milestones
+PhaseKey DeliverablesDurationPhase 1: Discovery & ApprovalLecturer permission, initial meeting with Jeffery Yelnats, business requirement gathering.1 WeekPhase 2: UX/UI WireframingFigma mockups incorporating Trailblazer branding, membership tiers, and training section.1 - 2 WeeksPhase 3: Development & IntegrationFrontend coding, contact/booking forms, new release alert setup, and SEO configuration.2 - 3 WeeksPhase 4: Testing & LaunchCross-device responsiveness testing, final lecturer evaluation, and site deployment.1 Week7. Budget & Resource Estimation
+Development labor is entirely free of charge as part of the Work-Integrated Learning (WIL) academic framework. Estimated third-party hosting and infrastructure expenses for Trailblazer Esports Arena are detailed below:
+Item / ResourceDescriptionEstimated CostDomain RegistrationCustom business domain name (e.g., trailblazer-esports.com) annually.$15 - $20 / yrWeb Hosting & SSLSecure SSL-enabled web hosting package for high traffic.$5 - $10 / moStudent Development LaborAssignment Task.FREE8. Company Logo
+Branded like fine wine!
