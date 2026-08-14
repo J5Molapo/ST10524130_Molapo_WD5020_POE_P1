@@ -1,0 +1,74 @@
+Angry Bob's Pizza
+Website Redesign & Development for Angry Bob's Pizza
+TO:
+Lecturer Mr L
+FROM:
+Napo Molapo
+CLIENT / TARGET BUSINESS:
+Angry Bob's Pizza (Owned & Managed by Holly Terry)
+DATE:
+August 2026
+SUBJECT:
+Approval Request to Redesign Website
+1. Project Objective & Permission Request
+I am submitting this proposal to request formal approval to approach Angry Bob's Pizza, owned by Holly Terry, as part of my Work-Integrated Learning (WIL) practical module. Angry Bob's Pizza has been in business for 8 years and has built a strong reputation for serving fresh, affordable, and flavour-packed pizza to a loyal customer base. The goal of this project is to create a modern, responsive website that presents the brand professionally, improves online ordering visibility, and helps the business attract new customers while keeping existing customers engaged.
+2. Goals and Objectives
+* The website design aims to improve customer experience by making the menu, pricing, delivery, and contact information easy to find.
+* Online ordering and enquiry features will make it easier for customers to place orders and book catering or group deals.
+* Visual identity and branding will be improved so that Angry Bob's Pizza looks established, professional, and memorable.
+* The website will help communicate the business's 8 years of experience and its reputation for quality food and customer service.
+3. Current Business Analysis (Angry Bob's Pizza)
+* Limited Digital Presence: The business has a strong local reputation, but an outdated or weak online presence may reduce visibility and customer reach.
+* Lack of Online Ordering Convenience: Customers may need a more efficient way to view the menu and place orders without calling or visiting in person.
+* Weak Brand Presentation: Without a strong digital identity, the business may not stand out from other local fast food competitors.
+* Inconsistent Information: Key details such as menu items, contact information, delivery areas, and operating hours may not be presented clearly.
+4. Proposed Essentials (UX, Design & Business Features)
+* Responsive Layout & Modern Aesthetics: A clean, mobile-friendly website that looks professional on phones, tablets, and desktops.
+* Menu Showcase: Clear categories such as Classic Pizzas, Gourmet Pizzas, Family Combos, Sides, Drinks, and Desserts.
+* Online Ordering & Enquiry Forms: Customers can place custom pizza orders, enquire about catering, or book deliveries.
+* Delivery & Collection Information: Easy access to delivery zones, order minimums, and store collection details.
+* Promotions & Loyalty Section: Highlight daily specials, combo deals, and loyalty rewards for returning customers.
+* About the Business Section: Featuring Angry Bob's Pizza's 8 years of experience, customer focus, and quality food offerings.
+* Accessibility & Speed: A faster, more user-friendly website with readable text, clear navigation, and simple layout.
+* Brand Colour Palette: Warm reds, dark charcoal, cream, and white to reflect energy, appetite appeal, and a strong fast-food identity.
+* Typography: Bold, modern fonts that feel energetic and food-focused while staying easy to read.
+5. Technical Requirements
+* Frontend Stack: HTML5, CSS3, and JavaScript for a lightweight, responsive, and user-friendly experience.
+* Contact & Enquiry Forms: Functional forms for customer queries, catering requests, and delivery bookings.
+* Product Display Pages: A dedicated menu section with pricing and product descriptions.
+* SEO & Optimization: Search-friendly page titles, readable content, and optimized image use for faster loading.
+* Mobile-First Design: Ensuring easy browsing and ordering on mobile devices, where many customers order food.
+6. Project Timeline & Milestones
+Phase
+Key Deliverables
+Duration
+Phase 1: Discovery & Approval
+Lecturer permission, meeting with Holly Terry, and business requirements gathering.
+1 Week
+Phase 2: UX/UI Wireframing
+Designing menu structure, homepage layout, promotions section, and contact flow.
+1 - 2 Weeks
+Phase 3: Development & Integration
+Website build, menu sections, form integration, and mobile optimization.
+2 - 3 Weeks
+Phase 4: Testing & Launch
+Cross-device testing, final review, and publishing the website.
+1 Week
+7. Budget & Resource Estimation
+Development labor is entirely free of charge as part of the Work-Integrated Learning (WIL) academic framework. Estimated third-party technical and hosting expenses for Angry Bob's Pizza are detailed below:
+Item / Resource
+Description
+Estimated Cost
+Domain Registration
+Custom business domain name (e.g., angrybobs-pizza.co.za)
+R256.50 - R342.00 / yr
+Web Hosting & SSL
+Secure hosting and SSL certificate for customer trust and safe online ordering
+R85.50 - R171.00 / mo
+Student Development Labor
+Assignment task and project development
+FREE
+8. Company Logo
+A bold, energetic logo concept inspired by pizza, heat, and personality. The brand can use a strong mascot-style concept with a fiery or bold character, reflecting the name "Angry Bob's Pizza" while still keeping the business professional and memorable.
+9. Conclusion
+Angry Bob's Pizza has a strong local presence and a loyal customer base after 8 years in business. With the right digital presentation, the business can reach more customers, increase orders, and build a stronger brand in the fast-food market. This project will create a professional website that supports growth, attracts new customers, and enhances the overall customer experience.
