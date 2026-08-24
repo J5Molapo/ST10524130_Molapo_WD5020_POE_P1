@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project Title
 Trailblazer Esports Arena Website Redesign
 
