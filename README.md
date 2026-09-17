@@ -49,13 +49,16 @@ Trailblazer Esports Arena is a gaming and esports venue that provides arena acce
 The site was reviewed across major device orientations to confirm the layout remains visually balanced and user-friendly.
 
 ### Desktop Site
-![Desktop Site](Images_Resources/Desktop Site 1.png)
+<img width="1329" height="628" alt="Desktop Site" src="https://github.com/user-attachments/assets/b127c5f6-2b25-49dc-be4c-83b9a180f996" />
+
 
 ### Tablet Site
-![Tablet Site](Images_Resources/Tablet Site 1.png)
+<img width="775" height="633" alt="Tablet Site 1" src="https://github.com/user-attachments/assets/cd249169-56ed-4d9d-ad6c-c4fe2cb8b1d8" />
+
 
 ### Mobile Site
-![Mobile Site](Images_Resources/Mobile Site 3.png)
+<img width="416" height="564" alt="Mobile Site 2 (1)" src="https://github.com/user-attachments/assets/f7c76112-fae6-4c46-afb0-df8032e0ae6c" />
+
 
 ## How to View the Site Locally
 1. Clone the repository:
