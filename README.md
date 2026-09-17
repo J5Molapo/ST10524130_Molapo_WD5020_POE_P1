@@ -48,19 +48,18 @@ Trailblazer Esports Arena is a gaming and esports venue that provides arena acce
 ## Screenshots: Different Orientations
 The site was reviewed across major device orientations to confirm the layout remains visually balanced and user-friendly.
 
-### Desktop View
-![Desktop layout preview](Screenshots/desktop-layout.svg)
+### Desktop Site
+![Desktop](Images_Resources/Desktop%20Site%201.png)
+### Tablet Site
+![Tablet](Images_Resources/Tablet%20Site.png)
 
-### Tablet View
-![Tablet layout preview](Screenshots/tablet-layout.svg)
-
-### Mobile View
-![Mobile layout preview](Screenshots/mobile-layout.svg)
+### Mobile Site
+![Mobile](Images_Resources/Mobile%20Site%203.png)
 
 ## How to View the Site Locally
 1. Clone the repository:
 
-   git clone https://github.com/J5Molapo/ST10524130_Molapo_WD5020_POE_P2.git
+   git clone https://github.com/J5Molapo/ST10524130_Molapo_WD5020_POE_P1.git
 
 2. Open `Index.html` in a browser, or run a simple local server:
    - Python 3: `python -m http.server 8000`
@@ -73,13 +72,20 @@ The site was reviewed across major device orientations to confirm the layout rem
 - `Enquiry.html` — User enquiry form
 - `Contact.html` — Contact details and hours
 - `CSS/style.css` — Styling and responsive design rules
-- `Images_Resources/` — Site images and assets
-- `Screenshots/` — Layout previews for desktop, tablet, and mobile
+- `Images_Resources/` — Site images and device preview images
 - `Documents/` — Supporting project documents
 - `README.md` — Project documentation
 
 ## References and Search Support
 The following resources assisted with responsive layout, orientation handling, and CSS design guidance:
+
+### References
+
+- W3Schools (2026) CSS Tutorial. Available at: https://www.w3schools.com/css/ (Accessed: 17 September 2026).
+- Mozilla Developer Network (MDN) (2026) Responsive design — MDN Web Docs. Available at: https://developer.mozilla.org/ (Accessed: 17 September 2026).
+- World Wide Web Consortium (W3C) (2026) Cascading Style Sheets (CSS). Available at: https://www.w3.org/ (Accessed: 17 September 2026).
+
+### Other resources and search support
 
 - MDN Web Docs — Responsive Web Design, CSS media queries, Flexbox, and Grid
 - W3Schools — CSS media queries and layout techniques
@@ -88,7 +94,7 @@ The following resources assisted with responsive layout, orientation handling, a
 - Search terms used: `responsive web design`, `CSS media queries orientation`, `flexbox center logo header`, `mobile responsive navbar`, `CSS grid layout examples`
 
 ## Project Repository
-Repository name updated to: `ST10524130_Molapo_WD5020_POE_P2`
+Repository name: `ST10524130_Molapo_WD5020_POE_P1`
 
 ## Contact
 Owner / Manager: Jeffery Yelnats
