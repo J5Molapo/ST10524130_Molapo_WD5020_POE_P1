@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="932" viewBox="0 0 430 932">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0a1a2f"/>
+      <stop offset="50%" stop-color="#2f7ae8"/>
+      <stop offset="100%" stop-color="#80d4ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="430" height="932" fill="url(#bg)"/>
+  <rect x="22" y="20" width="386" height="92" rx="12" fill="#111111"/>
+  <rect x="110" y="48" width="210" height="36" rx="8" fill="#d4af37"/>
+  <rect x="30" y="140" width="370" height="70" rx="12" fill="rgba(255,255,255,0.12)"/>
+  <rect x="64" y="163" width="90" height="16" rx="8" fill="#f5f5f5"/>
+  <rect x="179" y="163" width="90" height="16" rx="8" fill="#f5f5f5" opacity="0.8"/>
+  <rect x="294" y="163" width="80" height="16" rx="8" fill="#f5f5f5" opacity="0.8"/>
+  <rect x="32" y="240" width="366" height="220" rx="18" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)"/>
+  <rect x="52" y="260" width="326" height="52" rx="12" fill="#0b1730" opacity="0.5"/>
+  <rect x="52" y="330" width="326" height="100" rx="12" fill="#0b1730" opacity="0.35"/>
+  <rect x="32" y="490" width="366" height="340" rx="18" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)"/>
+  <rect x="58" y="514" width="314" height="36" rx="10" fill="#f5f5f5" opacity="0.8"/>
+  <rect x="58" y="568" width="314" height="22" rx="9" fill="#dfeeff" opacity="0.8"/>
+  <rect x="58" y="604" width="280" height="18" rx="9" fill="#dfeeff" opacity="0.7"/>
+  <text x="215" y="806" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#ffffff">Mobile View</text>
+</svg>
