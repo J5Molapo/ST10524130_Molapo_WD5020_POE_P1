@@ -115,17 +115,41 @@ img:not(.brand img) {
   transform: translateX(2px);
 }
 
-@media (max-width: 720px) {
+/* Desktop layout stays exactly as designed; the changes below only apply to smaller screens. */
+@media (max-width: 900px) {
+  /* Tablet header tune-up: stack the brand and nav so the logo can sit proudly in the middle. */
+  .main-nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
+    padding: 1rem 1.25rem;
+  }
+
+  /* Fun fact: giving the logo its own full-width center stage keeps it perfectly balanced in the header. */
+  .brand {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 0;
+    margin: 0 auto;
+  }
+
+  /* Responsive nav links: keep the menu readable and centered instead of left-aligned on smaller screens. */
+  .nav-links {
+    width: 100%;
+    justify-items: center;
+    text-align: center;
+    padding-left: 0;
+    border-left: none;
+  }
+}
+
+/* Mobile layout polish: the logo remains centered and the menu keeps a clean, easy-to-tap stack. */
+@media (max-width: 520px) {
   main {
     margin: 1rem 0.8rem;
     padding: 1.25rem 1rem 2rem;
-  }
-
-  .main-nav {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-    padding: 1rem 1.25rem;
   }
 
   .brand img {
@@ -135,7 +159,7 @@ img:not(.brand img) {
   .nav-links {
     grid-template-columns: repeat(2, minmax(110px, 1fr));
     gap: 0.6rem 1rem;
-    padding-left: 0;
-    border-left: none;
   }
 }
+
+/* Original desktop styling is preserved above this point, so the large-screen layout still looks the same. */
