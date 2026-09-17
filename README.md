@@ -48,14 +48,14 @@ Trailblazer Esports Arena is a gaming and esports venue that provides arena acce
 ## Screenshots: Different Orientations
 The site was reviewed across major device orientations to confirm the layout remains visually balanced and user-friendly.
 
-### Desktop View
-![Desktop layout preview](Screenshots/desktop-layout.svg)
+### Desktop Site
+![Desktop Site](Images_Resources/Desktop Site 1.png)
 
-### Tablet View
-![Tablet layout preview](Screenshots/tablet-layout.svg)
+### Tablet Site
+![Tablet Site](Images_Resources/Tablet Site 1.png)
 
-### Mobile View
-![Mobile layout preview](Screenshots/mobile-layout.svg)
+### Mobile Site
+![Mobile Site](Images_Resources/Mobile Site 3.png)
 
 ## How to View the Site Locally
 1. Clone the repository:
@@ -73,13 +73,20 @@ The site was reviewed across major device orientations to confirm the layout rem
 - `Enquiry.html` — User enquiry form
 - `Contact.html` — Contact details and hours
 - `CSS/style.css` — Styling and responsive design rules
-- `Images_Resources/` — Site images and assets
-- `Screenshots/` — Layout previews for desktop, tablet, and mobile
+- `Images_Resources/` — Site images and device preview images
 - `Documents/` — Supporting project documents
 - `README.md` — Project documentation
 
 ## References and Search Support
 The following resources assisted with responsive layout, orientation handling, and CSS design guidance:
+
+### References
+
+- W3Schools (2026) CSS Tutorial. Available at: https://www.w3schools.com/css/ (Accessed: 17 September 2026).
+- Mozilla Developer Network (MDN) (2026) Responsive design — MDN Web Docs. Available at: https://developer.mozilla.org/ (Accessed: 17 September 2026).
+- World Wide Web Consortium (W3C) (2026) Cascading Style Sheets (CSS). Available at: https://www.w3.org/ (Accessed: 17 September 2026).
+
+### Other resources and search support
 
 - MDN Web Docs — Responsive Web Design, CSS media queries, Flexbox, and Grid
 - W3Schools — CSS media queries and layout techniques
