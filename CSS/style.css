@@ -1,78 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap");
+
 :root {
-  --void-black: #070707;
-  --void-black-soft: #111111;
-  --solar-blue-1: #80d4ff;
-  --solar-blue-2: #2f7ae8;
-  --solar-blue-3: #123f8d;
-  --white: #f5f5f5;
-  --gold: #d4af37;
-  --muted: rgba(255, 255, 255, 0.7);
-  --soft-panel: rgba(255, 255, 255, 0.12);
-  --ink: #0b1730;
+  --night: #111617;
+  --night-raised: #1b2222;
+  --mint: #89f0d0;
+  --mint-bright: #b7ffe8;
+  --coral: #ff806b;
+  --paper: #f2f5ef;
+  --muted: #b5c3bd;
+  --line: rgba(183, 255, 232, 0.2);
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
+  min-height: 100vh;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(135deg, var(--solar-blue-1) 0%, var(--solar-blue-2) 42%, var(--solar-blue-3) 100%);
-  color: var(--ink);
+  color: var(--paper);
+  font-family: "Rajdhani", "Trebuchet MS", sans-serif;
+  font-size: 1.12rem;
+  background:
+    radial-gradient(ellipse at 8% 12%, rgba(137, 240, 208, 0.13), transparent 34%),
+    radial-gradient(ellipse at 94% 82%, rgba(255, 128, 107, 0.1), transparent 30%),
+    linear-gradient(145deg, #111617 0%, #202828 55%, #121718 100%);
 }
 
 main {
-  max-width: 1180px;
-  margin: 2rem auto;
-  padding: 2rem 1.5rem 3rem;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 20px;
-  box-shadow: 0 18px 45px rgba(8, 25, 58, 0.25);
+  width: min(1120px, calc(100% - 3rem));
+  margin: 1.5rem auto;
+  padding: 2.5rem 1rem 3rem;
+  animation: content-arrive 650ms cubic-bezier(0.2, 0.7, 0.25, 1) both;
 }
 
 h1, h2, h3 {
-  color: #fff;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  color: var(--paper);
+  font-family: "Oxanium", "Arial Narrow", sans-serif;
+  font-weight: 700;
+  line-height: 1.16;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0 0 1.5rem;
+  color: var(--mint-bright);
+  font-size: 2.55rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.55rem;
 }
 
 p, li, label {
-  color: #f3f8ff;
-  line-height: 1.7;
+  color: #d9e3de;
+  line-height: 1.65;
+}
+
+li::marker { color: var(--mint); }
+
+a {
+  color: var(--mint-bright);
+  text-underline-offset: 0.22em;
+  transition: color 220ms ease, background-color 220ms ease, border-color 220ms ease, transform 220ms ease;
+}
+
+a:hover { color: var(--coral); }
+
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 3px solid var(--coral);
+  outline-offset: 3px;
 }
 
 img {
-  max-width: 100%;
   display: block;
+  max-width: 100%;
 }
 
-img:not(.brand img) {
-  border: 4px solid rgba(255, 255, 255, 0.9);
-  border-radius: 18px;
-  box-shadow: 0 10px 25px rgba(10, 30, 58, 0.28);
-  background: rgba(255, 255, 255, 0.25);
-  padding: 0.3rem;
+main img {
+  border: 1px solid rgba(183, 255, 232, 0.25);
+  border-radius: 8px;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.28);
+  transition: transform 320ms ease, box-shadow 320ms ease, filter 320ms ease;
+}
+
+main img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.34);
+  filter: saturate(1.08);
 }
 
 .site-header {
-  background: var(--void-black);
-  border-bottom: 3px solid rgba(212, 175, 55, 0.7);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  background: rgba(10, 14, 15, 0.94);
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.24);
 }
 
 .main-nav {
-  max-width: 1400px;
+  width: min(1400px, 100%);
+  min-height: 100px;
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   gap: 2rem;
 }
 
 .brand {
   display: inline-flex;
+  flex: 0 0 auto;
   align-items: center;
   justify-content: center;
   min-width: 180px;
@@ -80,86 +115,191 @@ img:not(.brand img) {
 }
 
 .brand img {
-  width: 190px;
+  width: 180px;
   height: auto;
-  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.2));
-  border: none;
-  border-radius: 0;
-  box-shadow: none;
-  background: transparent;
-  padding: 0;
+  filter: drop-shadow(0 0 10px rgba(137, 240, 208, 0.2));
 }
 
 .nav-links {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(120px, 1fr));
-  gap: 0.6rem 1.5rem;
-  padding-left: 1.5rem;
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.35rem 1.4rem;
+  padding-left: 1.75rem;
+  border-left: 1px solid var(--line);
 }
 
 .nav-links a {
-  color: var(--white);
-  text-decoration: none;
-  font-size: 0.92rem;
+  position: relative;
+  display: inline-block;
+  padding: 0.55rem 0;
+  color: var(--paper);
+  font-family: "Oxanium", "Trebuchet MS", sans-serif;
+  font-size: 0.82rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  text-decoration: none;
   text-transform: uppercase;
-  transition: color 0.2s ease, transform 0.2s ease;
-  padding: 0.35rem 0;
 }
 
-.nav-links a:hover,
-.nav-links a:focus {
-  color: var(--gold);
-  transform: translateX(2px);
+.nav-links a::after {
+  position: absolute;
+  right: 0;
+  bottom: 0.2rem;
+  left: 0;
+  height: 2px;
+  background: var(--mint);
+  content: "";
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 220ms ease;
 }
 
-/* Desktop layout stays exactly as designed; the changes below only apply to smaller screens. */
+.nav-links a:hover, .nav-links a:focus-visible { color: var(--mint); transform: translateY(-2px); }
+.nav-links a:hover::after, .nav-links a:focus-visible::after { transform: scaleX(1); }
+
+.page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.75rem;
+}
+
+.button-link, button {
+  display: inline-flex;
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1.1rem;
+  border: 1px solid var(--mint);
+  border-radius: 6px;
+  background: var(--mint);
+  color: #10201b;
+  font: 700 0.95rem "Oxanium", "Trebuchet MS", sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-link:hover, button:hover {
+  border-color: var(--mint-bright);
+  background: var(--mint-bright);
+  color: #10201b;
+}
+
+.button-link.secondary {
+  background: transparent;
+  color: var(--mint-bright);
+}
+
+.button-link.secondary:hover { background: rgba(137, 240, 208, 0.1); }
+
+form {
+  display: grid;
+  max-width: 680px;
+  gap: 0.55rem;
+  margin-top: 1.75rem;
+}
+
+form label { margin-top: 0.45rem; font-weight: 700; }
+
+input, textarea {
+  width: 100%;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid rgba(183, 255, 232, 0.3);
+  border-radius: 6px;
+  background: rgba(7, 11, 12, 0.65);
+  color: var(--paper);
+  font: inherit;
+}
+
+input::placeholder, textarea::placeholder { color: var(--muted); }
+textarea { resize: vertical; }
+form button { justify-self: start; margin-top: 0.8rem; }
+
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 2rem;
+  padding: 1.2rem max(1.5rem, calc((100% - 1120px) / 2));
+  border-top: 1px solid var(--line);
+  background: rgba(10, 14, 15, 0.82);
+}
+
+.site-footer p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1.2rem;
+}
+
+.footer-links a {
+  color: var(--paper);
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.footer-links a:hover { color: var(--mint); }
+
+.page-transition {
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(10, 14, 15, 0.68);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-duration, 1.75s) ease;
+}
+
+@keyframes content-arrive {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page-transition.is-visible { opacity: 1; pointer-events: auto; }
+
+.page-transition img {
+  width: min(230px, 58vw);
+  max-height: 34vh;
+  object-fit: contain;
+  border: 0;
+  box-shadow: none;
+  filter: drop-shadow(0 0 24px rgba(137, 240, 208, 0.5));
+  animation: transition-logo 1.8s ease-in-out infinite alternate;
+}
+
+@keyframes transition-logo {
+  from { transform: scale(0.96); }
+  to { transform: scale(1.04); }
+}
+
 @media (max-width: 900px) {
-  /* Tablet header tune-up: stack the brand and nav so the logo can sit proudly in the middle. */
-  .main-nav {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0.9rem;
-    padding: 1rem 1.25rem;
-  }
-
-  /* Fun fact: giving the logo its own full-width center stage keeps it perfectly balanced in the header. */
-  .brand {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    min-width: 0;
-    margin: 0 auto;
-  }
-
-  /* Responsive nav links: keep the menu readable and centered instead of left-aligned on smaller screens. */
-  .nav-links {
-    width: 100%;
-    justify-items: center;
-    text-align: center;
-    padding-left: 0;
-    border-left: none;
-  }
+  .main-nav { flex-direction: column; justify-content: center; gap: 0.75rem; }
+  .brand { width: 100%; }
+  .nav-links { width: 100%; justify-content: center; padding: 0.75rem 0 0; border-top: 1px solid var(--line); border-left: 0; }
 }
 
-/* Mobile layout polish: the logo remains centered and the menu keeps a clean, easy-to-tap stack. */
 @media (max-width: 520px) {
-  main {
-    margin: 1rem 0.8rem;
-    padding: 1.25rem 1rem 2rem;
-  }
-
-  .brand img {
-    width: 160px;
-  }
-
-  .nav-links {
-    grid-template-columns: repeat(2, minmax(110px, 1fr));
-    gap: 0.6rem 1rem;
-  }
+  main { width: calc(100% - 1.25rem); margin: 1rem auto; padding: 1.5rem 1.1rem 2rem; }
+  h1 { font-size: 1.9rem; }
+  .main-nav { padding: 1rem; }
+  .brand img { width: 160px; }
+  .nav-links { gap: 0.3rem 1rem; }
+  .page-actions { flex-direction: column; align-items: stretch; }
+  .site-footer { align-items: flex-start; flex-direction: column; padding: 1.2rem; }
 }
 
-/* Original desktop styling is preserved above this point, so the large-screen layout still looks the same. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; }
+  main { animation: none; }
+  main img:hover, .nav-links a:hover { transform: none; }
+  .page-transition img { animation: none; }
+  a, button, main img, .page-transition { transition-duration: 0.01ms !important; }
+}

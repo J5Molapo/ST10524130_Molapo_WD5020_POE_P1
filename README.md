@@ -51,19 +51,17 @@ The site was reviewed across major device orientations to confirm the layout rem
 ### Desktop Site
 ![Desktop](Images_Resources/Desktop%20Site%201.png)
 ### Tablet Site
-![Tablet](Images_Resources/Tablet%20Site.png)
-
+![Tablet](Images_Resources/Tablet%20Site.pn
 ### Mobile Site
 ![Mobile](Images_Resources/Mobile%20Site%203.png)
 
 ## How to View the Site Locally
-1. Clone the repository:
+1. Open the project folder in VS Code.
+2. Run the **Start Website** task from **Terminal > Run Task**. It uses Windows PowerShell, so Python and Node.js are not required.
+3. Open `http://localhost:8000/Index.html` in a browser.
+4. Stop the server with Ctrl+C in the task terminal when finished.
 
-   git clone https://github.com/J5Molapo/ST10524130_Molapo_WD5020_POE_P1.git
-
-2. Open `Index.html` in a browser, or run a simple local server:
-   - Python 3: `python -m http.server 8000`
-   - then open `http://localhost:8000/Index.html`
+You can also start the server from PowerShell in the project folder with `./Start-Website.ps1`.
 
 ## File Structure
 - `Index.html` — Home page
@@ -72,6 +70,8 @@ The site was reviewed across major device orientations to confirm the layout rem
 - `Enquiry.html` — User enquiry form
 - `Contact.html` — Contact details and hours
 - `CSS/style.css` — Styling and responsive design rules
+- `JS/page-transition.js` — Page transition behavior
+- `Start-Website.ps1` — Local static server for Windows
 - `Images_Resources/` — Site images and device preview images
 - `Documents/` — Supporting project documents
 - `README.md` — Project documentation
